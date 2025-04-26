@@ -47,7 +47,7 @@ Goal: Ensure Kali Linux (attacker) and Windows 10 (victim) images are installed
 
 • Download Windows 10 ISO from Microsoft [https://www.microsoft.com/en-us/software-download/windows10ISO]
 
-
+![Image Alt](https://github.com/Muhammad-cyber-mujahid/Data-Exfiltration-and-Remediation-SOC/blob/3e623e382f52b1dd7c2313fcb9044056d9224cca/Kali%20Linux.png)
 
 
 Screenshot: Kali Linux & Windows 10 ISOs ready.
