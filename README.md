@@ -34,6 +34,7 @@ Goal: Establish a virtual environment for testing.
 • Verify by opening VirtualBox.
 
 
+![Image Alt](https://github.com/Muhammad-cyber-mujahid/Data-Exfiltration-and-Remediation-SOC/blob/50e0e4681bea2e35036e11bbefba4662f62a5e3e/Virtual%20box%20and%20Kali%20Linux%20set%20up.png).
 
 
 Screenshot: VirtualBox installed successfully.
@@ -67,7 +68,7 @@ Step 3: Setting Up Kali Linux VM (Attacker Machine)
 • Confirm using this command : nmap -V to show version.
 
 
-
+![Image Alt](https://github.com/Muhammad-cyber-mujahid/Data-Exfiltration-and-Remediation-SOC/blob/50e0e4681bea2e35036e11bbefba4662f62a5e3e/confirmation%20of%20nmap%20installed.png).
 
 Screenshot: Kali VM running with Nmap installed.
 
@@ -85,7 +86,7 @@ Step 4: Setting Up Windows 10 VM (Victim Machine)
 • Check the Windows 10 IP: cmd ipconfig
 
 
-
+![Image Alt](https://github.com/Muhammad-cyber-mujahid/Data-Exfiltration-and-Remediation-SOC/blob/50e0e4681bea2e35036e11bbefba4662f62a5e3e/wndows%2010%20pro%20server%20up.png).
 
 Screenshot: Windows 10 VM configured.
 
@@ -108,6 +109,7 @@ Goal: Simulate a vulnerable FTP setup.
 
 Screenshot: FileZilla server set up.
 
+![Image Alt](https://github.com/Muhammad-cyber-mujahid/Data-Exfiltration-and-Remediation-SOC/blob/50e0e4681bea2e35036e11bbefba4662f62a5e3e/FTP%20LISTENING%20-%20PORT21.png).
 
 
 Screenshot: FTP server running on port 21.
@@ -120,6 +122,10 @@ Goal: Verify the exposure of the FTP server.
 • On Kali, scan the network to detect FTP: nmap -sS -p 21 192.168.1.10
 
 • Check for anonymous access: nmap --script ftp-anon 192.168.1.10
+
+
+
+![Image Alt](https://github.com/Muhammad-cyber-mujahid/Data-Exfiltration-and-Remediation-SOC/blob/50e0e4681bea2e35036e11bbefba4662f62a5e3e/Open%20Port%2021.png).
 
 
 
@@ -140,6 +146,7 @@ Goal: Demonstrate unauthorized access to the FTP server.
 
 • Download sensitive files: get confidential.docx
 
+![Image Alt](https://github.com/Muhammad-cyber-mujahid/Data-Exfiltration-and-Remediation-SOC/blob/50e0e4681bea2e35036e11bbefba4662f62a5e3e/wordlist%20common%20password.png).
 
 Screenshot: Wordlist of weak passwords
 
@@ -173,8 +180,11 @@ Open Windows Event Viewer → Check Security and Application logs for suspicious
 Document & Report the Incident:
 Record details such as attacker’s IP, timestamps, affected files, and the actions taken to stop the breach for proper documentation and escalation.
 
+![Image Alt](https://github.com/Muhammad-cyber-mujahid/Data-Exfiltration-and-Remediation-SOC/blob/50e0e4681bea2e35036e11bbefba4662f62a5e3e/disable%20filezilla%20service.png).
+
 Screenshot: Disabled the FileZilla FTP service
 
+[Image Alt](https://github.com/Muhammad-cyber-mujahid/Data-Exfiltration-and-Remediation-SOC/blob/50e0e4681bea2e35036e11bbefba4662f62a5e3e/Firewall%20rule%20to%20stop%20connection.png)
 
 Screenshot: Block port 21 using windows firewall
 
